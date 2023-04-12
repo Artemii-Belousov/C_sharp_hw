@@ -18,8 +18,6 @@ void Print()
     {
         System.Console.WriteLine("Выходной");
     }
-
-    // bool weekend = Weekend(dayOfWeek);
 }
 
 int GetNumder()
@@ -27,15 +25,6 @@ int GetNumder()
     System.Console.WriteLine("Enter a number: ");
     return int.Parse(System.Console.ReadLine());
 }
-// bool Weekend(bool u)
-// {
-//     int dayOfWeek = GetDayOfWeek();
-//     if (dayOfWeek == 6 || dayOfWeek == 7)
-//     {
-//         System.Console.WriteLine("Выходной");
-//     }
-//     return u;
-// }
 
 int GetDayOfWeek()
 {
